@@ -1,0 +1,27 @@
+# == Schema Information
+#
+# Table name: themes
+#
+#  id                :integer          not null, primary key
+#  title             :string
+#  description       :text
+#  link_color        :string
+#  created_at        :datetime         not null
+#  updated_at        :datetime         not null
+#  logo_file_name    :string
+#  logo_content_type :string
+#  logo_file_size    :integer
+#  logo_updated_at   :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  link_color: MyString
+
+two:
+  title: MyString
+  description: MyText
+  link_color: MyString

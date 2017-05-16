@@ -232,7 +232,7 @@ ul.navbar-nav {
 	display: inline-block;
 	width: 130px;
 	height: 69px;
-	background: url(../assets/logo.png) center center no-repeat;
+	/*background: url(../assets/logo.png) center center no-repeat;*/
 }
 
 .top-content .text h1 {

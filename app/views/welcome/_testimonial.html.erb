@@ -83,3 +83,17 @@
       </div>
   </div>
 </div>
+
+
+
+<script type="text/javascript">
+  // jQuery(document).ready(function(){
+  //   $('.testimonial-list').find('li.active').find('a').css('background',  gon.link_color);
+  // });
+  $(document).ready(function()
+  {
+    if($('.testimonial-list').find('li').closest('li').hasClass('active')) {
+      $('.testimonial-list').find('li').closest('li').find('a').css('background',  gon.link_color);
+    }
+  });
+</script>>

@@ -1,3 +1,4 @@
+<%= include_gon %>
 <!-- Top content -->
 <%= render :partial => "top_content" %>
 
@@ -18,3 +19,11 @@
 
 <!-- Blog -->
 <%= render :partial => "blog" %>
+
+
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		$('.custom-color').css('background',  gon.link_color);
+	});
+</script>

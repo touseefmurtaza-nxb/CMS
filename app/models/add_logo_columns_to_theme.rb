@@ -1,0 +1,2 @@
+class AddLogoColumnsToTheme < ApplicationRecord
+end

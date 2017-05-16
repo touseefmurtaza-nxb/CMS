@@ -1,4 +1,3 @@
-
 function scroll_to(clicked_link, nav_height) {
 	var element_class = clicked_link.attr('href').replace('#', '.');
 	var scroll_to = 0;
@@ -13,7 +12,6 @@ function scroll_to(clicked_link, nav_height) {
 
 
 jQuery(document).ready(function() {
-	
 	/*
 	    Navigation
 	*/
@@ -96,4 +94,3 @@ jQuery(window).load(function() {
 	$(".testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
 	
 });
-

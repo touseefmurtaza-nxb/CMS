@@ -7,18 +7,17 @@
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2 text">
         	<div class="logo wow fadeInDown">
-        		<a href="index.html"></a>
+        		<!-- <a href="/"></a> -->
+            <%=link_to (image_tag(@theme.logo.url(:original))), "#" %>
         	</div>
-            <h1 class="wow fadeInLeftBig">Maren one page template</h1>
+
+            <h1 class="wow fadeInLeftBig"><%= @theme.title %></h1>
             <div class="description wow fadeInLeftBig">
-            	<p>
-              	This is a free responsive one page template made with the Bootstrap framework. 
-              	Check it out now. Download it, customize and use it as you like!
-            	</p>
+            	<p><%= @theme.description %></p>
             </div>
             <div class="top-big-link wow fadeInUp">
-            	<a class="btn btn-link-1" href="http://azmind.com">Download it</a>
-            	<a class="btn btn-link-2 scroll-link" href="#services">Learn more</a>
+            	<a class="btn btn-link-1 custom-color" href="http://azmind.com">Download it</a>
+            	<!-- <a class="btn btn-link-2 scroll-link" href="#services">Learn more</a> -->
             </div>
         </div>
       </div>
