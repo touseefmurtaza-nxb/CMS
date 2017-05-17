@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   namespace :admin do
     resources :themes
+    resources :supports
 
     root to: "themes#index"
   end
